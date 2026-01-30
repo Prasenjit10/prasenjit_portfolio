@@ -2,16 +2,16 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   
-  // {
-  //   id: 1,
-  //   title: "Orbit Analytics Dashboard",
-  //   description:
-  //     "Interactive analytics dashboard with data visualization and filtering capabilities.",
-  //   image: "/projects/project2.png",
-  //   tags: ["TypeScript", "D3.js", "Next.js"],
-  //   demoUrl: "#",
-  //   githubUrl: "#",
-  // },
+  {
+    id: 1,
+    title: "OTT Audience Map – ML-Powered Student Clustering",
+    description:
+      "An end-to-end machine learning web application that allows users to upload CSV/XLSX files and automatically clusters students based on OTT viewing preferences.",
+    image: "/projects/Screenshot 2025-11-12 220148.png",
+    tags: ["Machine Learning", "Python", "K-Means", "React", "Node.js", "Express", "Data Science"],
+    demoUrl: "https://ott-audience-map.onrender.com/",
+    githubUrl: "https://github.com/Prasenjit10/OTT-Audience-Map",
+  },
   {
     id: 2,
     title: "CodeTogether",
