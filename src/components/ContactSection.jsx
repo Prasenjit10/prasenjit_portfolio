@@ -1,5 +1,6 @@
 import {
   Facebook,
+  Github,
   Instagram,
   Linkedin,
   Mail,
@@ -65,10 +66,10 @@ export const ContactSection = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <div className="p-3 rounded-full bg-primary/10">
+                {/* <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />{" "}
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                   <h4 className="font-medium"> Phone</h4>
                   <a
                     href="tel:+11234567890"
@@ -76,7 +77,7 @@ export const ContactSection = () => {
                   >
                     +91 7029653822
                   </a>
-                </div>
+                </div> */}
               </div>
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
@@ -103,9 +104,9 @@ export const ContactSection = () => {
                 <a href="https://www.instagram.com/prasenjit_sasmal01/" target="_blank">
                   <Instagram />
                 </a>
-                {/* <a href="#" target="_blank">
-                  <Facebook />
-                </a> */}
+                <a href="https://github.com/Prasenjit10" target="_blank">
+                  <Github />
+                </a>
               </div>
             </div>
           </div>
